@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+html,
+body {
+    border  : 0;
+    position: absolute;
+    margin  : 0;
+    border  : 0;
+    padding : 0;
+    top     : 0;
+    bottom  : 0;
+    left    : 0;
+    right   : 0;
+    width   : 100%;
+    height  : 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background : transparent;
+    font-size  : 22px;
+    font-family: 'Didact Gothic', sans-serif;
+    line-height: .9em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    color      : #198e6f;
+    line-height: 1em;
+}
+
+h1 {
+    font-size  : clamp(.3rem, 5vw, 6rem);
+    font-weight: 700;
+}
+
+h2 {
+    font-size  : 3vw;
+    font-weight: 600;
+}
+
+nav {
+    display         : block;
+    position        : fixed;
+    top             : 0;
+    width           : 100%;
+    height          : 50px;
+    background-color: #70bfaa;
+    font-size       : 18px;
+    line-height     : .7em;
+}
+
+nav ul {
+    display        : inline;
+    list-style-type: none;
+    margin         : 0;
+    padding        : 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav .rigth-menu {
+    float: right;
+}
+
+nav ul li a {
+    display         : inline-block;
+    margin          : 2px;
+    padding         : 15px;
+    text-decoration : none;
+    color           : white;
+    background-color: #3fa187;
+    border-radius   : 5px;
+}
+
+section {
+    width : 80%;
+    margin: 0 auto 0 10%;
+}
+
+.user-row,
+.advertisement-row {
+    width      : 100%;
+    border     : 1px solid rgb(113, 212, 186);
+    padding    : 5px 0;
+    margin     : 5px 0;
+    font-weight: 600;
+}
+
+.advertisement-row h1,
+.user-row h1 {
+    font-weight: 600;
+    font-size  : clamp(.1rem, 2vw, 3rem);
+    margin     : 10px 0 10px 0;
+    padding    : 0;
+}
