@@ -2,7 +2,6 @@
 namespace models\AdvertisementsModel;
 
 use controllers\MysqlController\MysqlController as MySQL;
-require_once __DIR__.'/../../controllers/MysqlController/MysqlController.php';
 
 /**
  * Handle advertisements table
