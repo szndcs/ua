@@ -18,6 +18,6 @@ class AdvertisementsController
 
     public function index()
     {
-        $this->advertisementsView->data($this->advertisements->getAdvertisements());
+        $this->advertisementsView->view($this->advertisements->getAdvertisements());
     }
 }

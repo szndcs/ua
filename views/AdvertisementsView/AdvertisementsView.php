@@ -3,7 +3,7 @@ namespace views\AdvertisementsView;
 
 class AdvertisementsView {
 
-    public function data($content)
+    public function view($content)
     {
         include __DIR__ . '/../Contents/Header.php';
         echo "<h1>Advertisements currently stored in our database</h1>\n";
